@@ -1,5 +1,44 @@
+#header{
+  color: #6495ED;
+  display: block;             /* Add this */
+  font-style: oblique;
+  background-color: #000000;
+  font-weight: bold;
+  padding: 20px;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;  /
+}
+
+.text{
+  display: block;
+  background-color: #7E8184;
+  text-align: center;
+  color: #000000;
+  font-size: 25px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+div {
+  text-align: center;
+  list-style: inside;
+}
+
+.header{
+  text-align: center;
+  color: #008B8B;
+}
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  text-align: center;
+  list-style: inside;
 }
