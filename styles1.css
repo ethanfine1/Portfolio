@@ -1,0 +1,104 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+#header{
+  color: #6495ED;
+  display: block;             /* Add this */
+  font-style: oblique;
+  background-color: #000000;
+  font-weight: bold;
+  padding: 20px;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;  /
+}
+
+
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;    /* Add this */
+}
+
+.family-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+}
+
+.big-c {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.cactus-container {
+  justify-content: center;
+}
+
+.interest-container {
+  color: #5995DA;
+  background-color: #00000;
+  justify-content: center;
+}
+
+.footer {
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  text-align: left;
+}
+
+.header1 {
+  color: #DC143C;
+  font-size: 25px;
+}
+
+.family-pic {
+  margin: auto;
+  width: 25%;
+}
+
+.info {
+  width: 300px;
+}
+
+.cactus {
+  margin: auto;
+  width: 50%;
+}
+
+ul {
+  text-align: center;
+  list-style: inside;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .cactus-container,
+    .interest-container,
+    .footer {
+      width:33.3%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
